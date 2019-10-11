@@ -1,0 +1,189 @@
+@media screen {
+	/** {zoom:1;}*/
+	html { filter: expression(document.execCommand("BackgroundImageCache", false, true)); }
+	
+	/*dl, dt, dd {zoom:1;}*/
+	form, form * {zoom:1;}
+	
+	div#header div.content {position:relative; }
+	
+	div#body {height:1%;}
+	
+	div#body div#right.column {width:690px; }
+	
+	dl.horizontal {margin:5px 0;}
+	
+	dl.horizontal dd {float:none;}
+	dl.horizontal dd.second {float:left;}
+	
+	dl dt,
+	dl dl {margin:0px 0 5px 0; padding:0px;}
+	
+	dd textarea {overflow-y:auto;}
+	dd input.button, dd button {padding:2px 14px;}
+	dl p.error {padding:5px 0 0px 0px; margin-bottom:-2px; left:0px; }
+	
+	dl.horizontal dd p.error {margin-left:-100px !important;}
+	
+	dd.phone input#phoneNumber {width:170px;}
+    dd.phone input#mobilePhoneNumber {width:170px;}
+
+    div.Activation h1 strong {color:#ce0000;}
+	div.Activation dl.horizontal p.error {margin-left:100px !important;}
+	div.Activation dl.horizontal dd p.error {margin-left:0px !important;}
+	/*div.Activation form.recover dd {width:50px;}*/
+	div.Activation form.recover dd.second input.button {padding:3px 0px;}
+	
+	div.Activation div.itelebill iframe {height:330px;}
+	
+	fieldset legend {margin-left:-7px;}
+	
+	div.tabs ul {margin-left:2px;}
+	div.tabs ul li a {margin-bottom:-1px; }
+	div.tabs ul li.selected a {position:relative;}
+	
+	div.member {margin-right:18px; display:inline}
+	div.compact div.member {margin-right:10px !important;}
+	
+	div.chatrequest {margin-right:18px;}
+	div.chatrequest div.left {float:left; width:70px; margin:12px 0 0 6px;}
+	div.chatrequest div.right {float:left; width:104px; margin:12px 0 0 6px;}
+	div.paid div.left {margin-top:6px;}
+	div.paid div.right {margin-top:6px;}
+	
+	div.memberCard.narrow {/*width:190px;*/ margin-left:20px;}
+
+	div.memberCardBlock a {float:left;}
+	div.memberCardBlock dl.memberDetail {float:left; margin-left:5px;}
+
+	dl.accountManagement {width:430px; }
+	dl.accountManagement dt {width:165px;}
+	dl.accountManagement dd {width:255px;}
+	dl.accountManagement p.error,
+	dl.accountManagement dd.nolabel {left:165px; widows:255px;}
+	
+	/* FIXME: fix for issue DWE-194 */
+	div.InformerMessage div.compact div.member div.username {margin:-46px 0 0 44px;}
+	
+	.icon {background-position-y:center;}
+	
+	div.pager {line-height:normal;}
+	
+	div.sticker div.popup div.content p.sending {width:50px;}
+	div.sticker div.popup div.content p.result {width:130px;}
+	
+	div.Login {margin-left:30px; width:400px;}
+	
+	div.TextNotMember {margin:0 48px 0 36px}
+	
+	div.LoginIndex {left:530px;}
+	div.LoginIndex dl {margin:0;}
+	
+	div.PasswordRecovery p.error {margin-left:100px;}
+	
+	div.Registration dd select#orientationIdPerson1,
+	div.Registration dd select#orientationIdPerson2,
+	div.Registration dd select#seekingOrientationId,
+	div.Registration dd select#regionId,
+	div.Registration dd select#cityId,
+	div.Registration dd select#postalCodeId {width:210px;}
+	
+	div.AdvancedSearch.narrow dd select#seekingRegionId,
+	div.AdvancedSearch.narrow dd select#seekingCityId {width:240px;}
+	
+	div.AdvancedSearch dd select#seekingRegionId,
+	div.AdvancedSearch dd select#seekingCityId {width:230px;}
+	
+	div.AdvancedSearch.quick dd select#seekingRegionId,
+	div.AdvancedSearch.quick dd select#seekingCityId {width:220px;}
+	
+	div#left div.AdvancedSearch {width:240px;}
+	
+	div.AdvancedSearch div.blockLeft {width:230px;}
+	div.AdvancedSearch div.blockRight {width:390px;}
+	
+	div.AdvancedSearch div.blockLeft dl.half {width:105px;}
+	
+	div.AdvancedSearch.quick {margin-left:10px; width:250px !important;}
+	div.AdvancedSearch.narrow {margin-left:10px;}
+	
+	div.AdvancedSearch select#seekingAgeFrom,
+	div.AdvancedSearch select#seekingAgeTo {width:40px;}
+	
+	div.CompleteRegistration iframe#mediaItemSource {margin-top:10px;}
+	div.CompleteRegistration div#mediaItemLoading {margin-top:10px;}
+	
+	div.MyProfile div.right {width:420px;}
+	div.MyProfile div.right h2,
+	div.MyProfile div.right p {width:420px;}
+
+	div.MyProfile div.right div.blockLeft,
+	div.MyProfile div.right div.blockRight {width:200px;}
+
+	div.MyProfile div.right dl.memberDetail {width:250px; overflow:visible;}
+
+	div.MyProfile div.right div#mainInfoView dl.memberDetail {width:200px;}
+	div.MyProfile div.right div#mainInfoView dl.memberDetail dt {width:90px;}
+	div.MyProfile div.right div#mainInfoView dl.memberDetail dd {width:100px;}
+	div.MyProfile div.right div#mainInfoView dl.memberDetail dd.double {width:50px;}
+	
+	div.MyProfile form.accented div.blockLeft,
+	div.MyProfile form.accented div.blockRight {width:190px;}
+	
+	div.MyProfile form.accented dl.horizontal {}
+	div.MyProfile form.accented dl.horizontal dt {width:78px;}
+	div.MyProfile form.accented dl.horizontal dd {width:105px;}
+	div.MyProfile form.accented dl.horizontal dd.double {width:50px; }
+	div.MyProfile form.accented dl.horizontal dd.nolabel {left:81px;}
+	div.MyProfile form.accented dl.horizontal dd.second { margin:-26px 0 0 130px;}
+	div.MyProfile form.accented dl.horizontal dd.double.second {float:none; }
+	
+	div.MyProfile form.accented dl.horizontal.wide dt {width:120px;}
+	div.MyProfile form.accented dl.horizontal.wide dd {width:180px;}
+	div.MyProfile form.accented dl.horizontal.wide dd.double {width:120px;}
+	div.MyProfile form.accented dl.horizontal.wide dd.second { margin:-26px 0 0 245px;}
+	
+	div.MyProfile form.accented dd select#regionId,
+	div.MyProfile form.accented dd select#cityId,
+	div.MyProfile form.accented dd select#postalCodeId {width:105px;}
+	
+	div.SendProfile form dl.half {width:180px;}
+	div.SendProfile form dl.half p.error {width:180px;}
+	
+	div.SearchByUsername form.accented dd {float:left;}
+	div.SearchByUsername form.accented dd input.small {width:25px; padding:0;}
+	
+	div.UpgradeAccount div.highlighted div.blockRight {width:290px;}
+	div.UpgradeAccount div.blockRight {margin-left:7px}
+	
+	div.Mailbox div.groupOperation {width:200px; height:25px; line-height:25px; margin:10px 0;}
+	div.Mailbox div.groupOperation.top {background-position:0px 10px;}
+	div.Mailbox div.groupOperation.bottom {background-position:0px 1px;}
+
+	div.Mailbox div.mailStat {height:25px; line-height:25px; margin:10px 0 10px 10px;}
+	div.Mailbox div.pager {height:25px; line-height:25px; margin:10px 0;}
+	div.Mailbox div.groupOperation {margin-left:10px;}
+	
+	div.ReadMessage button {padding-left:0px; padding-right:0px; margin-right:5px;}
+	
+	div.ChatHistory {width:660px;}
+	div.ChatHistory div.MembersList {float:left; }
+	
+	div.Gallery div.galleryThumbnails div.scrollable {width:555px;}
+	
+	div.InformerMessage div.compact div.member {width:100px; overflow:hidden;}
+	div.InformerMessage div.buttons button {width:75px; margin:0 2px;}
+	
+	div.ContextMenu div.content div.ViewProfileMenu ul {width:auto; }
+	
+	div#RemoveAccountResult.Ads {margin:10px 5px}
+	
+	/* IE6 rtl styles fix */
+	body.rtl.staticjsp div#body div#left.column {float:left}
+	body.rtl.loginjsp div.FacebookLogin {margin-right:0; margin-left:72px}
+
+    /* Banners */
+	div.size360x250.Internal div.clickable div.text p {padding-top:45px; padding-bottom:5px;}
+	
+	div.ThreadItem div.ViewProfileMenu ul li {display:block; float:left}
+}

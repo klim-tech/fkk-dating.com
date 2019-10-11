@@ -1,0 +1,174 @@
+@media screen {
+/**
+ * Layout
+ */
+	html {margin:0; padding:0; height:100%;}
+	body {margin:0; padding:0; font:normal 80% Arial, Helvetica, sans-serif; text-align:left; height:100%; background:url(/images/index/bgfooter.gif);}
+	
+	b.corner {position:absolute; width:1px; height:1px; font-size:1px; line-height:1px; overflow:hidden; font-weight:normal;}
+	b.lt {left:0px; top:0px;}
+	b.rt {right:0px; top:0px;}
+	b.lb {left:0px; bottom:0px;}
+	b.rb {right:0px; bottom:0px;}
+
+
+	div.holder {position:relative; clear:both;}
+	div.holder div.content {width:1200px; position:relative; clear:both; margin:0 auto;} 	
+	
+	div.Registration input.checkbox {margin-left:0px;}
+	
+	.strong {font-weight:bold;}
+	div.clear {clear:both; height:1px; overflow:hidden; font-size:1px;}
+
+
+div#main {z-index:1000;}
+div#main div.content {z-index:1000; border-top:8px solid #2f2e2e; padding:0 0 15px;}
+
+
+	div.Header {position:absolute; float:left; margin:0px; padding:15px 0 0; top:0px; left:63px; width:347px; height:46px; background:url(/images/index/bglogo.gif) repeat-x; text-align:center; z-index:1000;}
+	div.Header h2 {padding:0; color:#7b7b7b; font-size:18px; font-weight:bold;}
+
+	h1.slogan {position:absolute; margin:0; font-size:42px; color:#fff; left:465px; top:15px; font-weight:bold; text-shadow:1px 1px 1px #0b80ad;}
+
+	ul#MainMenu {left:525px; bottom:0px; position:absolute;}
+	ul#MainMenu li {background-color:#42301e;}
+	ul#MainMenu li a {font-size:12px; font-weight:bold; color:#b0a297; border-color:#3f362d; padding:0 8px;}
+	ul#MainMenu li a:hover {color:#ffffff; background-color:#785330; border-color:#785330;}
+	ul#MainMenu li#lastMainMenuItem {}
+	ul#MainMenu li b {top:0; bottom:auto; background:#191714;} 
+	ul#MainMenu a.fb_button_simple {padding-left:25px;}
+
+	div.LoginIndex {position:absolute; padding:15px 65px 10px; width:auto; left:auto; bottom:auto; top:557px; right:80px; background:url(/images/index/bglogin.png); border:1px solid #e6c787; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px;}
+
+	div.LoginIndex form {float:none;}
+	div.LoginIndex dl {margin:0; overflow:hidden;}	
+	div.LoginIndex dl dd {width:auto; margin:0px;}
+	div.LoginIndex dl dt {width:auto; height:auto; }
+	input#login, input#password {width:82px; margin-right:5px; font-size:auto;}
+	div.LoginIndex dl dd label {padding:0; height:auto; width:90px; color:#9b9b9b; font-size:9px;}
+	#rememberMe {margin-left:0px; margin-right:3px; background:#ffffff;}
+	div.LoginIndex a {text-decoration:underline; font-size:9px; color:#d42500;}
+	div.LoginIndex a:hover {text-decoration:none;}	
+	div.LoginIndex dl dd input.button {font-size:11px; padding:0 10px 2px; font-weight:bold; background:#eb2c32; border-color:#df2600; border-width:0 1px 1px 0;}  
+		
+	div.SwitchLocale {text-align:left; right:65px; top:0px; bottom:auto; position:absolute; z-index:1000;}
+	div.SwitchLocale div span.label {font-size:11px; color:#fff; text-transform: capitalize; font-weight:bold; background:#d90600; border:none; padding:0 14px; height:34px; line-height:34px;}
+	div.SwitchLocale p {float:left; font-size:11px; padding:0px 5px 0 0; color:#a7a7a7; line-height:17px; display:none;}  
+	div.SwitchLocale div b {top:0; bottom:auto; background:#191714; display:none;}
+	div.SwitchLocale div.highlighted {top:35px;}
+	div.SwitchLocale div#switchLocalesTrigger {height:34px;}
+	div.SwitchLocale div {margin:0px;}
+	
+.linkarrow {position:absolute; right:120px; top:457px; outline:none;}
+
+	div#topDecoration {clear:both; height:8px; position:relative; overflow:hidden; position:relative;}
+	div#topDecoration div.one {height:8px; background:#9c9c9c; overflow:hidden; position:relative;}
+
+		
+	div#bottomDecoration {clear:both; height:1px; position:relative; width:855px; overflow:hidden; margin:20px 0 15px;}
+	div#bottomDecoration div.one {height:1px; background:#9c9c9c; overflow:hidden; position:relative;}
+
+
+	div#footer {z-index:1;}
+	div#footer div.content {z-index:1001; border-top:6px solid #000; background:#2e3234; overflow:hidden;}
+	div.Footer {position:relative; overflow:hidden;}
+
+	ul#bottonNavigation {margin:0px 0 0 27px; padding:0; list-style:none; float:left; font-size:85%; position:relative;}
+	ul#bottonNavigation li {margin:10px 0 0; padding:0 18px; list-style:none; float:left;}
+	ul#bottonNavigation li.last {border-right-style:none;}
+	ul#bottonNavigation li a {color:#84aac1; text-decoration:underline;}
+	ul#bottonNavigation li a:hover {text-decoration:none;}
+	
+	
+	div#copyright {margin:10px 68px 0 0px; text-align:left; position:relative; float:right; color:#585a5a;}     
+	div#copyright a {color:#585a5a;}
+
+
+	p.warningNotification {text-align:left; padding:15px 0 30px 45px; margin:0; position:relative; color:#585a5a; float:left;}  
+	
+	p.submitbutton {margin:0 0 0 15px; zoom:0;} 
+	.button, .submit {cursor:pointer;}
+
+	div.Registration dl dt, div.Registration dl dd, div.Registration input, div.Registration select, div.Registration dl.horizontal {margin-bottom: 0px !important; margin-top: 0px !important;}
+
+	div.Registration {margin:0; position:absolute; z-index:255; padding:0 75px 0 75px; top:120px; left:17px; background:url(/images/index/bgreg.png) no-repeat; width:300px; min-height:503px;}
+	div.Registration a {text-decoration:underline; color:#bbe9fb;}
+	div.Registration a:hover {text-decoration:none;}
+	div.Registration form {margin:0px; color:#bbbbbb;}
+	div.Registration h2 {padding:20px 0 12px; text-align:center; margin:0; font-size:24px; font-weight:normal; color:#fff;}
+	div.Registration h2 strong {font-weight:normal; font-size:36px; color:#fefd99;}
+
+	
+	div.Registration input.submit {width:269px; height:59px; line-height:normal; font-weight:bold; font-size:24px; background:url(/images/index/button.png) no-repeat; border:none; padding:0; padding-bottom:6px; outline:none;}
+	
+	div.Registration dl.horizontal {overflow:hidden;}
+	 
+	div.Registration dl.horizontal dt {font-size:12px; width:120px;}
+	div.Registration dl.horizontal dd {width:180px;}
+	div.Registration select#birthYearPerson1, div.Registration select#birthYearPerson2 {width:50px;}
+	div.Registration select#birthMonthPerson1, div.Registration select#birthMonthPerson2 {width:74px;}
+	div.Registration select#birthDayPerson1, div.Registration select#birthDayPerson2 {width:48px;}
+	
+	div.Registration dl {margin-bottom:0px !important;}
+	div.Registration dl dt, div.Registration dl dd {margin-bottom:3px !important;}
+
+	
+	div.Registration select#sexId, div.Registration select#birthYearPerson1, div.Registration select#birthYearPerson2, div.Registration select#birthMonthPerson1, div.Registration select#birthMonthPerson2, div.Registration select#birthDayPerson1, div.Registration select#birthDayPerson2, div.Registration #screenname, div.Registration #newPassword, div.Registration select#lookingForSexId, div.Registration select#countryId, div.Registration select#regionId, div.Registration select#cityId, div.Registration select#postalCodeId {margin-bottom:0px;}
+
+	
+	dl.horizontal dd.nolabel {font-size:11px; white-space:nowrap; left:120px;}
+	div.Registration dl.horizontal dd.nolabel label {white-space:nowrap;}
+
+	div.Registration input#agree {margin-left:0px; background:#fff;}
+	
+	dl.horizontal dd p.warning {margin:3px 0 5px; font-size:10px; color:#7c7881;}
+	
+	div.Registration input {width:99%;}
+	div.Registration input.checkbox {width:auto;}
+
+	div.RegistrationSimple dl p.error {left:120px;}
+	
+	a {color:#ff4242;}
+
+	div.SearchResult {position:relative; margin:0; padding:0px 0 0 28px; float:none; display:block; overflow:hidden;}
+	div.SearchResult h1 {display:none; text-align:left;}
+	div.SearchResult h2 {text-align:left; font-weight:bold; margin:0; font-size:26px; padding: 24px 20px 8px; color:#585a5a;}
+	div.simple {position:relative; list-style:none;}
+	div.simple div.member.featured, div.simple div.member {width:auto; height:auto; margin:0; padding:0px 11px; border:none; background:none; position:relative;}
+	div.member div.username {text-align:center; width:auto; margin-top:3px; display:none;}
+	div.member a {font-size:11px; font-weight:bold; color:#fcff00;}
+	div.member img {width:111px; height:126px; border:6px solid #effaff; -moz-border-radius:6px; -webkit-border-radius:6px; -khtml-border-radius:6px; border-radius:6px;}
+
+
+	div.QuickSearch {width:340px; overflow:hidden; margin:35px 0 0; text-align:left; display:block; float:right; background:#fff; padding: 0 0 43px;}
+	div.QuickSearch h2 {font-weight:normal; padding:0px 10px 0 35px; font-size:24px; text-align:left; color:#ff4242; background:#ffffff; line-height:40px;}
+	div.QuickSearch p {text-align:left}
+	div.QuickSearch .button.common {width:125px; height:34px; line-height:30px; margin-left:100px; font-size:16px; font-weight:normal; cursor:pointer; padding:0; text-transform:lowercase; background:#ce0000; border-width:0 1px 1px 0;}
+	div.QuickSearch dl.horizontal dd {width:170px;}
+	div.QuickSearch dl.horizontal dt {color:#1f1f1f; font-size:12px;}
+	div.QuickSearch form {padding:25px 0 0 40px;}
+	div.QuickSearch form label {white-space:normal}
+
+	form label {white-space:normal;}
+	
+.visual {width:1200px; height:617px; position:relative; }
+.intro {position:absolute; right:0; top:0; width:1200px; height:617px;}
+.prevvisual {left:-28px; top:107px; position:absolute;}
+.nextvisual {right:-28px; top:107px; position:absolute;}
+
+.city span {color:#00b3e6; font-size:30px; font-weight:bold;}
+.city {font-size:18px; font-weight:normal; padding:10px 0 5px 50px; color:#505051;}
+
+.welcome {padding: 15px 45px;}
+.welcome h2, .welcome h3 {font-size:24px; color:#fff; padding:0 0 10px;}
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+	div.Registration dl dt {margin-bottom:3px !important}
+	div.Registration dl dd {margin-bottom:3px !important}
+	dd p.warning {margin:3px 0}
+	div.QuickSearch dl dt {margin-bottom:0 !important}
+	div.QuickSearch dl dd {margin-bottom:0 !important}
+}
+<!--18405211841f5a4a8-->

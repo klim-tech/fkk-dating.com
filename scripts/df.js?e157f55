@@ -1,0 +1,21 @@
+var list = [
+    '/scripts/external/jquery/jquery-1.10.2.js',
+    '/scripts/external/jquery/jquery-migrate-1.2.1.js',
+    '/scripts/libs/jquery.blockUI.js',
+    '/scripts/libs/jquery.mousewheel.js',
+    '/scripts/libs/jquery.lazyload-ad.js',
+    '/scripts/libs/jquery.autocomplete.js',
+    '/scripts/external/mailcheck/jquery.mailcheck.js',
+    '/scripts/external/tipsy/jquery.tipsy.js',
+    '/scripts/external/cookie/jquery.cookie.js',
+    '/scripts/external/blockadblock/blockadblock.js',
+    '/scripts/jquery.prototype.js',
+    '/scripts/jquery.df.js',
+    '/scripts/jquery.ajax.js',
+    '/scripts/jquery.select.js',
+    '/scripts/jquery.global.js'
+];
+
+for(i=0; i < list.length; i++){
+    document.write('<script src="' + list[i] + '" type="text/javascript"></script>');
+}

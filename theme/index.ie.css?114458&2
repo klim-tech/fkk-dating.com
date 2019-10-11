@@ -1,0 +1,38 @@
+@media screen {
+	
+	div.Registration #screenname, div.Registration #newPassword, div.Registration #email, div.Registration #postalCode {width:176px;}
+	select#seekingOrientationId, select#orientationIdPerson1, select#regionId, select#cityId, select#postalCodeId {width:180px !important;}
+
+	div.Registration dl.horizontal dd input, div.Registration dl.horizontal dd select{margin:0px !important; margin-top:0px !important;}	
+	div.Registration dl.horizontal, div.Registration dl.horizontal dd, div.Registration dl.horizontal dt {margin:0px !important;}
+	
+	div.Registration dl.horizontal {margin-bottom:0px;}
+	div.Registration dl.horizontal dt, div.Registration dl.horizontal dd {margin-bottom:0px !important;}
+	div.Registration dl.horizontal dt, div.Registration dl.horizontal dd {_margin-bottom:0px;}
+	div.Registration dl.horizontal dd select, div.Registration dl.horizontal dd input {margin-bottom:3px !important;}
+	div.Registration dl.horizontal dd select, div.Registration dl.horizontal dd input {_margin-bottom:2px !important;}
+	div.Registration input#screenname, div.Registration input#newPassword, div.Registration input#email, div.Registration input#postalCode {margin-bottom:1px !important;}
+	div.Registration input#screenname, div.Registration input#newPassword, div.Registration input#email, div.Registration input#postalCode {_margin-bottom:1px !important;}
+	
+	div.Registration input.submit {border:none;}
+	div.Registration input#agree {margin:0 3px 0 -3px !important; _margin:0 3px 0 -3px !important; background:none !important; }
+	div.Registration {_height:503px;}
+
+	div.LoginIndex {_width:270px;}
+	div.LoginIndex form {}
+	div.LoginIndex dl dd input.button {border:none; padding:0;}
+
+
+	input#rememberMe {margin-left:-4px !important; background:none !important;}
+	input#agree {background:none;}
+	
+
+	div#copyright {_margin-right:34px;}
+	ul#bottonNavigation {_margin-left:13px;}
+
+	div.SearchResult {_height:1%;}
+
+	p.submitbutton {zoom:0 !important;}
+
+}
+
